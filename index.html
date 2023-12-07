@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="pessoa_tirando_selfie.jpeg" alt="">
+        <h1>App Selfie por voz
+
+        </h1>
+        <hr>
+    </header>
+    <main>
+        <div id="content-out">
+            <h3>Diga: Selfie</h3>
+            <label for="">Sua saida de voz</label>
+            <textarea name="" id="textarea" cols="30" rows="1"></textarea>
+        </div>
+        <button onclick="iniciar()">iniciar</button>
+        <br>
+
+        <label for="">Sua webcam</label>
+        <br>
+        <div id="camera"></div>
+        <br>
+
+        <label for="">Sua Selfie</label>
+        <br>
+        <div id="Resultado"></div>
+        <br>
+
+        <button onclick="baixar()">Baixar</button>
+        <a href="" id="link" download="eu.png"></a>
+        <script src="main.js"></script>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
